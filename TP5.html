@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cocina Fragata - TP5</title>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="tp5.css">
+</head>
+<body>
+
+    <header>
+        <h1>Cocina Fragata</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#recetas">Recetas</a></li>
+                <li><a href="#tips">Consejos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="modelo-caja" id="recetas">
+        <h2>Recetas tipicas</h2>
+        <div class="caja content-box">
+            <img src="budinDElimon" alt="Budín de Limón">
+            <h3>Budín de Limón</h3>
+            <p>Un clásico esponjoso y perfumado.</p>
+        </div>
+        <div class="caja border-box">
+            <img src="budinMarmolado.jpeg" alt="Budín Marmolado">
+            <h3>Budín Marmolado</h3>
+            <p>Perfecto contraste entre vainilla y cacao.</p>
+        </div>
+    </section>
+
+<link rel="stylesheet" href="estilos.css">
+
+<section class="recetas">
+    <div class="tarjeta">
+        <img src="galletitas.webp" alt="Galletitas de Manteca">
+        <h3>Galletitas de Manteca</h3>
+        <p>Un clásico que nunca falla con su humedad y decoracion perfecta.</p>
+    </div>
+
+    <div class="tarjeta destacada">
+        <div class="etiqueta">⭐ Más Popular</div>
+        <img src="lemonPie.webp" alt="Lemon Pie">
+        <h3>Lemon Pie</h3>
+        <p>Fresco, con un toque acido que lo hace unico.</p>
+    </div>
+
+    <div class="tarjeta">
+        <img src="muffinChoco.webp" alt="Muffins de Chocolate">
+        <h3>Muffins de Chocolate</h3>
+        <p>Suaves y llenos de sabor intenso.</p>
+    </div>
+</section>
+
+<a href="#todas-las-recetas" class="boton-fixed">📜 Ver todas las recetas</a>
+
+<section class="display-ejemplos" id="tips">
+    <h2>Los mejores tips para la Cocina</h2>
+    <p class="inline">Tip 1: Usá siempre <strong>limón fresco</strong> para potenciar el sabor.</p>
+    <p class="block">Tip 2: Tamizá la harina para que el budín quede más esponjoso.</p>
+    <button class="inline-block">Ver más tips de repostería</button>
+    <p class="ocultar">Este tip desaparece al pasar el mouse: <em>No abras el horno antes de tiempo</em>.</p>
+</section>
+
+    <section class="receta-destacada">
+        <h2 class="fuente-google">Receta del Día</h2>
+        <h2>Galletitas de Manteca</h2>
+        <img src="galletitas.webp" alt="gallaetitas">
+        <h3>Ingredientes:</h3>
+        <ul>
+            <li>200 g de azúcar</li>
+            <li>100 ml de aceite</li>
+            <li>100 ml de leche</li>
+            <li>2 huevos</li>
+            <li>Ralladura y jugo de 1 limón</li>
+            <li>200 g de harina leudante</li>
+        </ul>
+        <h3>Pasos:</h3>
+        <ol>
+            <li>Batir huevos y azúcar hasta que espumen.</li>
+            <li>Agregar ralladura, jugo de limón y aceite.</li>
+            <li>Incorporar harina y leche alternadamente.</li>
+            <li>Hornear a 170°C durante 40 minutos.</li>
+        </ol>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="contacto">
+        <h2>Contacto</h2>
+        <form>
+            <label>Nombre:</label>
+            <input type="text" placeholder="Tu nombre" required>
+            <label>Email:</label>
+            <input type="email" placeholder="tuemail@example.com" required>
+            <label>Mensaje:</label>
+            <textarea placeholder="Escribí tu mensaje"></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        © 2025 Cocina Fragata - Todos los derechos reservados. Julieta Pichot
+    </footer>
+
+</body>
+</html>
